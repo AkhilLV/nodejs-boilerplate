@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI";
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .title {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.container .sub-title {
+  color: crimson;
+}
+
+.container .content {
+  margin-bottom: 20px;
+}
+
+.container pre {
+  background: #eee;
+  margin: 20px 0;
+  padding: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Served</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+      }
+
+      body {
+        background-color: crimson;
+        color: #fff;
+        padding: 30px;
+        font-family: "Segoe UI";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      a {
+        margin-top: 10px;
+        background: #fff;
+        color: #333;
+        padding: 10px 25px;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: 250ms ease-in-out;
+      }
+
+      a:hover {
+        box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.05);
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello world!</h1>
+      <a href="/about">About me</a>
+    </div>
+  </body>
+</html>
